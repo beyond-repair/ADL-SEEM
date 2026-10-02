@@ -8,11 +8,13 @@ Authoritative runtime. All overlapping SEEM work must defer here.
 |-------|--------|
 | **Purpose** | Offline Clean-Room VSA / SEEM constitutional substrate |
 | **Owner** | beyond-repair |
-| **Status** | ACTIVE (CI-blocked until VSA chunks restored) |
+| **Status** | ACTIVE. Sweep-204 recorded CI success run 36815859875 on `5fbd20b201a02b41b1c8a9e698b78d9954a34da0`. VSA completeness UNVERIFIED. Tags empty. Releases empty. Not a finished digital twin. |
 | **Dependencies** | Python, NumPy |
 | **Successors** | — |
 | **Predecessors** | SEEM-2.0-Self-Evolving-Emergent-Mind, SEEM-Cognitive-Microservice, SEEM-Cognitive_Microservice, seem-block-system, My-mind-A.I., Gia---General-Intelligence-Assistant, Auto_Legion |
 | **URL** | https://github.com/beyond-repair/sovereign-clean-room |
+
+Sweep-206 removed the prior line "CI-blocked until VSA chunks restored". That sentence is not the Sweep-204 evidence. Chunk completeness was not re-measured in Sweep-206.
 
 ## Non-canonical (do not treat as authority)
 

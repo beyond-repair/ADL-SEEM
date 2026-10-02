@@ -1,0 +1,27 @@
+name: docs-contract
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  required-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: required constitution files
+        run: |
+          set -eu
+          test -f README.md
+          test -f CLAIM_STATUS.md
+          test -f docs/CONSTITUTION.md
+          test -f docs/CLAIM_VALIDATION.md
+          test -f docs/LIFECYCLE.md
+          test -f docs/RESPONSE_CONTRACT.md
+          test -f docs/CANONICAL.md
+          if grep -n "CI-blocked" docs/CANONICAL.md; then
+            echo "stale CI-blocked claim must not return"
+            exit 1
+          fi
+          echo "docs-contract ok"
