@@ -14,7 +14,7 @@ Authoritative runtime. All overlapping SEEM work must defer here.
 | **Predecessors** | SEEM-2.0-Self-Evolving-Emergent-Mind, SEEM-Cognitive-Microservice, SEEM-Cognitive_Microservice, seem-block-system, My-mind-A.I., Gia---General-Intelligence-Assistant, Auto_Legion |
 | **URL** | https://github.com/beyond-repair/sovereign-clean-room |
 
-Sweep-206 removed the prior line "CI-blocked until VSA chunks restored". That sentence is not the Sweep-204 evidence. Chunk completeness was not re-measured in Sweep-206.
+Sweep-206 removed the prior status sentence that described the runtime as blocked on missing VSA chunks. That sentence is not the Sweep-204 evidence. Chunk completeness was not re-measured in Sweep-206.
 
 ## Non-canonical (do not treat as authority)
 
